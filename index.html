@@ -1,23 +1,380 @@
 <!DOCTYPE html>
 <html>
-
-	<head>
-						<!-- bootstrap link min -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<head>
+	<!-- ==============Media queries============== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--===============BOOTSTRAP LINK============== -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+	<!-- ==============custom CSS==================-->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!--=============== Animate CSS ================-->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!--============== Font Awesome ================-->
+	<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<!--============== GOOGLE font =================-->
+	<link href="https://fonts.googleapis.com/css?family=Codystar" rel="stylesheet">
+	<title>Colorful Flat 2.0</title>
+</head>
+<body>
+					<!-- the start of the nav bar -->
+				<nav class="navbar navbar-inverse">
+					  <ul class="nav navbar-nav navbar-right">
+					    <li><a href="#">Home</a></li>
+					    <li><a href="#">Services</a></li>
+					    <li><a href="#">Portfolio</a></li>
+					    <li><a href="#">Blog</a></li>
+					    <li><a href="#">Contact</a></li>
+					  </ul>
+					  <p class="navbar-text">Colorful flat</p>
+					</nav>
+					<!-- the start of the carousel -->
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+			    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#myCarousel" data-slide-to="1"></li>
+			    <li data-target="#myCarousel" data-slide-to="2"></li>
+			    <!-- <li data-target="#myCarousel" data-slide-to="3"></li> -->
+			  </ol>
 
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<title>Main</title>
-	</head>
-		<body>
-						
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" role="listbox">
+			    <div class="item active container-fluid">
+			      <img class="img-responsive" src="images/Background1.jpg" alt="Chania">
+			    </div>
+
+			    <div class="item container-fluid">
+			      <img class="img-responsive" src="images/Background2.jpg" alt="Chania">
+			    </div>
+
+			    <div class="item">
+			      <img class="img-responsive" src="images/Background3.jpg" alt="Flower">
+			    </div>
+
+			   <!--  <div class="item">
+			      <img src="img_flower2.jpg" alt="Flower">
+			    </div> -->
+			  </div>
+
+			  <!-- Left and right controls -->
+			  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+		<section class="one container">
+			<div class="row">
+				<div class="img col-md-4">
+					<img class="images img-responsive" src="images/macimg.jpg" >
+						<h2>Flat Design.</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+				</div>
+				<div class="img col-md-4">
+					<img  class="images img-responsive" src="images/lightbulb.jpg">
+						<h2>Great Ideas.</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+				</div>
+				<div class="img col-md-4">
+					<img class="images img-responsive" src="images/browsers.jpg">
+						<h2>Browser Compatibility</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+				</div>
+				
+			</div>
+
+		</section>
+		<section class="two container-fluid">
+				<div class="container">
+					  <h2>Recent Works.</h2>
+					  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+					  	<ul class="list-inline">
+							    <li><a href="#">All</a></li>
+							    <li><a href="#">Web</a></li>
+							    <li><a href="#">Mobile</a></li>
+							    <li><a href="#">Photography</a></li>
+							    <li><a href="#">Design</a></li>
+							    <li><a href="#">Type</a></li>
+
+						</ul>
+				</div>
+				<div class="img_6 container">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="thumbnail">
+								<img class=" img-responsive" src="images/turtle1.jpg">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="thumbnail">
+								<img class=" img-responsive" src="images/turtle2.jpg">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="thumbnail">
+								<img class=" img-responsive" src="images/turtle3.jpg">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="img_6 container">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="thumbnail">
+								<img class=" img-responsive" src="images/turtle4.jpg">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="thumbnail">
+								<img class=" img-responsive" src="images/turtle4.jpg">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="thumbnail">
+								<img class=" img-responsive" src="images/turtle4.jpg">
+							</div>
+						</div>
+					</div>
+				</div>
+				<button type="button" class="btn btn-default">Show More</button>
+			</section>
+			<section class="container-fluid">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<img class="img-responsive" src="images/browsers.jpg">
+						</div>
+						<div class="col-md-8">
+							<h2>Layered Neatly Photoshop Template</h2>	
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat.</p>
+									<!-- button -->
+									<button type="button" class="btn btn-success">Show More</button>
+						</div>				
+					</div>
+				</div>
+		
+				<div class="container">
+						<div class="row">
+							<div class="col-md-8">
+								<h2>Layered Neatly Photoshop Template</h2>	
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat.</p>
+										<!-- button -->
+										<button type="button" class="btn btn-success">Show More</button>
+										</div>	
+									<div class="col-md-4">
+										<img src="images/browsers.jpg" class="img-responsive clear-fix">
+									</div>
+										
+						</div>
+				</div>
+			</section>
+			<section class="Team container-fluid">
+				<div class="meet container">
+					<h1 class="header">Meet Our Team</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore etLorem ipsum dolor sit amet</p>
+				</div>
+					<div class=" team container">
+						<div class="top row">
+							<div class="topHalf col-md-3 col-md-offset-1">
+								<div class="top_one">
+									<i class="fa fa-user fa-5x" aria-hidden="true">
+									</i>
+								</div>
+								<div class="bottom_one">
+									<h1>John Smith</h1>
+										<h6 class="Creative">Creative Director</h6>
+											<p>Lorem ipsum dolor sit amet,
+											<br>
+											 consectetur adipisicing elit</p>
+											 		<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+												 	<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+												 	<i class="fa fa-pinterest fa-2x" aria-hidden="true"></i>
+								</div>
 
 
+
+							</div>
+							<div class="topHalf col-md-3 col-md-offset-1">
+								<div class="top_one">
+									<i class="fa fa-user fa-5x" aria-hidden="true">
+									</i>
+								</div>
+									<div class="bottom_one">
+										<h1>John Smith</h1>
+											<h6 class="Creative">Creative Director</h6>
+												<p>Lorem ipsum dolor sit amet, 
+											<br>
+												consectetur adipisicing elit</p>
+													<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+													<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+													<i class="fa fa-pinterest fa-2x" aria-hidden="true"></i>
+									</div>
+
+
+							
+							</div>
+							<div class="topHalf col-md-3 col-md-offset-1">
+								<div class="top_one">
+									<i class="fa fa-user fa-5x" aria-hidden="true">
+									</i>
+								</div>
+									<div class="bottom_one">
+										<h1>John Smith</h1>
+											<h6 class="Creative">Creative Director</h6>
+												<p>Lorem ipsum dolor sit amet,
+										<br>
+												 consectetur adipisicing elit</p>
+													<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+													<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+													<i class="fa fa-pinterest fa-2x" aria-hidden="true"></i>
+
+									</div>
+							</div>
+						</div>
+					</div>
+			</section>
+			<section class="recent container-fluid">
+				<div class="text-center container">
+					<div class="row">
+						<h1 class="header">Recent Posts</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua.</p>
+							<div class="margin">
+								<div class="topHalf col-md-4">
+									<div class="top_one">
+										<i class="fa fa-arrows-alt fa-5x" aria-hidden="true"></i>
+									</div>
+									<div class="bottom_one">
+										<h5 class="Creative">Really interesting Post</h5>
+											<h6>October 27</h6>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+												tempor incididunt ut labore et dolore magna aliqua.
+												 </p>
+									</div>
+					
+								</div>
+							</div>
+							<div class="margin">
+								<div class="topHalf col-md-4">
+									<div class="top_one">
+										<i class="fa fa-arrows-alt fa-5x" aria-hidden="true"></i>
+									</div>
+									<div class="bottom_one">
+										<h5 class="Creative">Really interesting Post</h5>
+											<h6>October 27</h6>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+												tempor incididunt ut labore et dolore magna aliqua.
+												 </p>
+									</div>
+								</div>
+							</div>
+							<div class="margin">
+								<div class="topHalf col-md-4">
+									<div class="top_one">
+										<i class="fa fa-arrows-alt fa-5x" aria-hidden="true"></i>
+									</div>
+									<div class="bottom_one">
+										<h5 class="Creative">Really interesting Post</h5>
+											<h6>October 27</h6>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+												tempor incididunt ut labore et dolore magna aliqua.
+												 </p>
+									</div>
+					
+								</div>
+							</div>
+					</div>
+					<button type="button" class="btn btn-default">Show More</button>
+			</section>
+			<footer class="sixth container-fluid">
+				<div class=" text-center contactUs">
+					<h1>CONTACT US</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					<br>
+												tempor incididunt ut labore et dolore magna aliqua.
+												 </p>
 
 				
+				<div class="row">
+					<div class="col-md-4">
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+						  	<label for="usr"></label>
+						  	<input type="text" class="form-control" id="usr" placeholder="Name:">
+						</div>
+						<div class="form-group">
+						 	<label for="pwd"></label>
+						  	<input type="password" class="form-control" id="pwd" placeholder="Email:">
+						</div>
+						<div class="form-group">
+						  <label for="comment"></label>
+						  <textarea class="form-control" rows="5" id="comment" placeholder="Message:"></textarea>
+						</div>
+
+					</div>
+						<div class="col-md-4">
+						</div>
+					</div>
+						<a href="#"><button type="button" class="btn btn-default">Show More</button></a>
+
+				</div>
+				<hr align="center">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-3"></div>
+						<div class="col-md-3">
+							<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+							<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+							<i class="fa fa-html5 fa-2x" aria-hidden="true"></i>
+							<i class="fa fa-css3 fa-2x" aria-hidden="true"></i>
+						</div>
+						<div class="text col-md-4">
+						<span>Bloom Web Design</span>Copyright&copy; 2013 | Powered by <span>Wordpress</span>
+
+						</div>
+						<div class="col-md-2">
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+
+
+
+		
+
+
+
+
+
+
+			
+			
 
 
 
@@ -38,11 +395,22 @@
 
 
 
-				<!-- ================Jquery CDN =================-->
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-					<!-- ================Bootstrap==================-->
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
-		</body>
-	</html>
+
+
+
+
+
+<!-- ================Jquery CDN =================-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<!-- =================CUSTOM ===================-->
+
+<!-- ================Bootstrap==================-->
+<!-- <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script> -->
+<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

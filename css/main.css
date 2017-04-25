@@ -1,34 +1,192 @@
-a{
-	color: pink;
-	text-decoration: none;
+body{
+	margin: 0 auto;
+}
+.navbar{
+	margin: auto;
+}
+.carousel > div{
+	max-width: 100%;
+	max-height: 800px;
+	margin: auto;
+}
+.img{
+	height: 250px;
+
+}
+body > section > div{
+	margin: 16,0px auto;
+}
+body > section > div > div:nth-child(2) > img{
+	height: 250px;
+	margin: auto;
+
+}
+.one{
 	text-align: center;
 }
+.two{
+	text-align: center;
+	background-color: #97D0A3;
+}
+/*Buttons*/
+.list-inline > li{
+	background-color: none;
+	padding: 25px 25px;
+	color: black;
+}
+/* links and hover*/
+a{
+	color:white;
+}
 a:hover{
-	color: yellow;
+	color: orange;
 }
-.active{
-	border-bottom: 1px solid blue;
+/*second section*/
+body > section.one.container{
+	margin: 150px auto;
+	padding-bottom: 100px;
 }
-#blue{
+body > section.two.container-fluid > div > h2,
+body > section.two.container-fluid > div > p{
+	color: white
+}
+body > section.two.container-fluid > div:nth-child(2) > div{
+	margin: 75px auto;
+}
+/*Images x6*/
+.thumbnail{
+	max-height: 300px;
+}
+
+.btn{
+	margin: 45px;
+}
+body > section:nth-child(5){
+	padding: 100px;
+	background-color: #F0F0F0;
+}
+/*Meet our team section*/
+.header{
+	text-align: center;
+}
+/* centering the P*/
+body > section:nth-child(6) > div > p{
+	text-align: center;
+}
+.Team{
+	background-color: pink;
+}
+.meet{
+	margin-top: 75px;
+	color: white;
+}
+.team{
+	margin-top: 75px;
+}
+.top{
+	margin-bottom: 75px;
+	text-align: center;
+}
+/*====Icons=====*/
+i{
+	margin: 20px 5px;
+
+}
+
+/*}
+.fa-facebook{
+	color: white;
 	background-color: blue;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	padding: 7px;
+}*/
+.fa-user{
+	color: white;
 }
-#red{
-	background-color: red;
+.fa-facebook{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color:blue;
+	padding: 10px;
+	color: white;
+	text-align:center;
+
 }
-#green{
-	background-color: green;
+.fa-twitter{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #A6E0F5;
+	padding: 10px;
+	color: white;
+	text-align: center;
 }
-#green,
-#red,
-#blue{
-	color: pink;
+.fa-pinterest{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #B63F57;
+	color: white;
+	padding: 10px;
+
 }
-#purple{
-	background-color: purple;
+.top_one{
+	background-color: #E9E9E9;
+	height: 125px;
 }
-#yellow{
-	background-color: yellow;
+.bottom_one{
+	background-color: white;
+	margin-top: -20px;
 }
-#orange{
-	background-color: orange;
+.margin{
+	margin: 50px auto;
+}
+.recent{
+	background-color: #B5D5E0;
+}
+.fa-arrows-alt{
+	color: white;
+}
+.contactUs{
+	padding: 50px;
+	margin: -20px;
+	background-color: #3B3B3B;
+	color: white;
+}
+hr{
+	margin-top: -20px;
+	border-color: black;
+	width: 50%;
+}
+/*bottom of the page icons*/
+.fa-html5{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: black;
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
+.fa-css3{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: black;
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
+footer{
+	color: grey;
+	background-color: #3B3B3B;
+}
+span{
+	color:yellow;
+}
+.text{
+	margin: 30px;
 }
